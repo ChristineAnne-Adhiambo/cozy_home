@@ -11,6 +11,8 @@ body{
   background-position: center;
   width: 100%;
   height: 800px;
+  background-color: black;
+
   
 }
 #orange{
@@ -76,11 +78,15 @@ body{
   content: "\2192";
 }
 .button{
-  color: #ffac7d;
-  margin-top: 600px;
+  background-color: #ffac7d;
   text-align: center;
   padding-bottom: 5px;
   margin-bottom: 40px;
+  border-radius: 10%;
+  margin-left: 40%;
+}
+discoverbutton{
+  text-align: center;
 }
 
 
@@ -90,12 +96,14 @@ body{
   width: 80%;
   height: 430px;
   padding: 40px;
+  /* padding-bottom: 80px; */
+  color: #ffac7d;
   
 }
 
 .images{
   float: left;
-  padding: 15px 30px 0px px;
+  padding: 15px 30px 0px 30px;
   align-items: center; 
   float: left;
 }
@@ -104,15 +112,53 @@ body{
   text-align: center;
   padding: 4px;
   justify-content: center;
+  margin-left: 45%;
 }
 
-.inspiration{
-  background-color: #ffe5d6;
-  width: 100%;
-  height: 400px;
-  margin: 30px 10px 15px 20px;
-  
+.inspiration {
+  color: black;
+  background-color: #ffac7d; 
+  padding: 0px 180px 0 200px;
 }
+
+.bottom-image{
+  float: right;
+  margin-left: 500px;
+}
+
+.find {
+  color: black;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #002D3D;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.main-2{
+  height: 400px;
+  width: 100%;
+}
+.orange1{
+  color: #002d3d;
+}
+
+/* .circle{
+  border-radius: 50%;
+  border: solid #FFFFFF;
+  width: 350px;
+  height: 300px;
+  margin: 20%;
+  padding: 40px;
+  text-align: center;
+  background-color: #FFFFFF;
+} */
 
 
 
