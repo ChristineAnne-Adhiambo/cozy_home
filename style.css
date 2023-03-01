@@ -1,37 +1,54 @@
 body{
   font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+#nav-bottom{
+  
+  margin: 0 140px 0 140px;
+  border: 1px solid #ffe5d6;
 }
 
 
-
 .Main{
-  background-image: url(/images/minh-pham-OtXADkUh3-I-unsplash.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/minh-pham-OtXADkUh3-I-unsplash.jpg) ;
   overflow: none;
   background-size: 100%;
   background-position: center;
   width: 100%;
   height: 800px;
-  background-color: black;
+  background-color: rgb(240, 231, 231);
+  
+  
 
   
 }
-#orange{
+#orange-1{
   color: #ffac7d;
 }
 .navbar li{
   float: left;
   list-style: none;
 }
+.navbar{
+  margin: 0 140px 0 160px;
+  color: #ffffff;
+}
 
-.left ul li{
-  margin-left: 30px;
+.left {
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+  margin-left: 20px;
   justify-content: left;
-  display: inline-block;
 }
 
-.form{
-  text-align: center;
+#shop{
+  margin-right: 20px;
 }
+#style{
+  margin-right: 20px;
+}
+
 
 .main {
   width: 50%;
@@ -39,13 +56,14 @@ body{
 }
 
 .icons i{
-  
-  float: right;
-  margin-right: 60px; 
+  position: relative;
+  left: 45%;
+  bottom: 40px;
 }
 
 
 .middle {
+  color: #ffffff;
   text-align: center;
   margin: 350px;
 
@@ -58,6 +76,7 @@ body{
  .image-middle::after{
   align-items: center; 
   float: left;
+  background-color: #ffffff;
   
  }
 
@@ -65,6 +84,18 @@ body{
   float: left;
   padding: 35px;
   
+ }
+ #ex{
+  width: 100px;
+  position: relative;
+  bottom: 30px;
+  right: 420px;
+ }
+ #pop{
+  width: 100px;
+  position: relative;
+  bottom: 30px;
+  right: 455px;
  }
 
  .color{
@@ -91,46 +122,48 @@ discoverbutton{
 
 
 .popular{
-  
+  position: relative;
   background-color: #002d3d;
-  width: 80%;
-  height: 430px;
-  padding: 40px;
-  /* padding-bottom: 80px; */
+  overflow: none;
+  width: 100%;
+  height: 460px;  
   color: #ffac7d;
-  
+  margin: 10px;
+}
+
+.popular p {
+color: black;
+}
+.images i{
+  color: black; 
 }
 
 .images{
   float: left;
-  padding: 15px 30px 0px 30px;
-  align-items: center; 
-  float: left;
+  
 }
 
-.btn{
-  text-align: center;
-  padding: 4px;
-  justify-content: center;
-  margin-left: 45%;
+.images1{
+  position: relative;
+  left: 20%;
+}
+.images2{
+  position: relative;
+  left: 45%;
+  bottom: 350px;
+}
+.images3{
+  position: relative;
+  left: 70%;
+  bottom: 700px;
 }
 
-.inspiration {
-  color: black;
-  background-color: #ffac7d; 
-  padding: 0px 180px 0 200px;
+
+.main2{
+  background-color: #ffac7d;
+  position: relative;
 }
 
-.bottom-image{
-  float: right;
-  margin-left: 500px;
-}
-
-.find {
-  color: black;
-  margin-top: 20px;
-  padding: 5px;
-}
 
 footer{
   width: 100%;
@@ -139,26 +172,101 @@ footer{
   display: flex;
   justify-content: space-between;
   color: white;
+  margin-top: 30px;
 }
 
-.main-2{
-  height: 400px;
-  width: 100%;
-}
+
 .orange1{
-  color: #002d3d;
+  color: #ffac7d;
 }
 
-/* .circle{
-  border-radius: 50%;
-  border: solid #FFFFFF;
-  width: 350px;
-  height: 300px;
-  margin: 20%;
-  padding: 40px;
-  text-align: center;
-  background-color: #FFFFFF;
-} */
 
+
+.bottom{
+  background-color: #ffac7d;
+  height: 500px;
+
+}
+#vase{
+  width: 500px;
+  position: relative;
+  left: 55%;
+  top: 10%;
+}
+.btm{
+  position: relative;
+  bottom: 60%;
+  left: 10%;
+  border-radius: 50%;
+  background-color: #ffe5d6;
+  width: 35%;
+  height: 400px;
+
+
+}
+.other{
+  position: relative;
+  left: 3%;
+  top: 20%;
+  text-align: center;
+}
+
+#icon{
+  position:absolute; bottom:12px; left:130px; width:10px; height:10px;
+}
+
+#icon1{
+  position:absolute; bottom:12px; left:370px; width:10px; height:10px;
+}
+#icon2{
+  position:absolute; bottom:12px; left:360px; width:10px; height:10px;
+}
+
+#search-button { position:relative; padding:0; margin:0; 
+  position: relative;
+  left: 30%;
+}
+
+#my_form{
+  height:20px; margin:0; padding-left: 30px;
+  width: 230px;
+  border-radius: 7px;
+}
+
+#user{
+  color: black;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+#heart{
+  margin-left: 30px;
+  margin-right: 40px;
+}
+#shopping{
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.btn{
+  background-color: #ffac7d;
+  position: relative;
+  top: 350px;
+  right: 200px;
+}
+.expl{
+  font-size: 24;
+}
+
+.news{
+  width: 100%;
+  text-align: center;
+}
+#Go{
+  border-radius: 30px;
+  background-color: #ffac7d;
+}
+#placeholder{
+  border-radius: 30px;
+}
 
 

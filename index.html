@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="style.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@100;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
   <div class="Main" >
@@ -15,36 +19,44 @@
     <div class="navbar">
       <nav>
         <ul>
-          <li>Cozy <span class="orange">Home</span></li>
+          <li>Cozy <span class="orange-1">Home</span></li>
         </ul>
+        <div id="search-button">
+
+          <input id="my_form" type="text" class="form-control" placeholder="Search">
+          <i id="icon" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          <i id="icon1" class="fa-brands fa-pinterest"></i>
+          <i id="icon2" class="fa-sharp fa-solid fa-camera"></i>
+        </div>
 
         <div class="left">
           <ul>
-          <li>Shop</li>
-          <li>Style</li>
+          <li id="shop">Shop</li>
+          <li id="style">Style</li>
           <li>Offers</li>
           </ul>
-          <div class="form">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
+        </div>
+        
 
           <div class="icons">
-            <i class="fa fa-user"></i>
-            <i class="fa fa-heart"></i>
-            <i class="fa fa-shopping-bag"></i>
+            <i id="user" class="fa fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i id="shopping" class="fa fa-shopping-bag"></i>
             
          </div>
-        </div>
+        
       </nav>
+      <hr id="nav-bottom">
     </div>
       <div class="middle">
         <h1>Make your dream home.</h1>
         <p>Explore our wide range of modern and cozyfurniture's to suit<br> your style and dream.Check out offers on our winter collection.</p>
-        <button id="butt">Shop now</button>
+        <button id="butt">Shop now &#8594;</button>
       </div>
 
       <div>
-        <h3>Explore your style_____________________</h3> 
+        <h3>Explore your style</h3> 
+        <hr id="ex">
       </div>
       
       <div class="image-middle">
@@ -68,97 +80,104 @@
       </div>  
 
       <div class="popular">
-        <h4>Popular Designs___________</h4>
-        <div class="images">
-          <div class="images">
+        <h4>Popular Designs</h4>
+        <hr id="pop">
+        
+          <div class="images1">
             <img src="/images/spacejoy-IH7wPsjwomc-unsplash.jpg"height="250px" width="200px" alt="">
-            <p>Rustic Oak Wood Table</p>
+            <p>Rustic Oak Wood Table <i class="fa-regular fa-heart"></i></p>
             <p>&euro;229,90</p>  
-            <i class="fa fa-heart"></i>
+            
           </div>
     
-          <div class="images">
+          <div class="images2">
             <img src="/images/andrea-davis-OBV5XREI-ig-unsplash (copy).jpg"height="250px" width="200px" alt="">
-            <p>Rustic Oak Wall Shelves</p>
-            <p>&euro;49,90</p>  
-            <i class="fa fa-heart"></i>
+            <p>Rustic Oak Wall Shelves  <i class="fa-regular fa-heart"></i></i></p>
+            <p>&euro;49,90</p>
+
+            
           </div>
     
-          <div class="images">
+          <div class="images3">
             <img src="/images/jon-nathon-stebbe-paydk0JcIOQ-unsplash.jpg" height="250px"width="200px" alt="">
-            <p>Scandinavian</p>
+            <p>Scandinavian  <i class="fa-regular fa-heart"></i></p>
             <p>&euro;229,90</p>  
-            <i class="fa fa-heart"></i>
-          </div>
-
-          <div>
-            <button class="btn">Explore All<span>&#8594;</span></button>
-          </div>    
-
-          <div class="main-2">
-          <div class="inspiration">
-            <h3>Need Inspiration?_______________________</h3>
-            <div class="bottom-image">
-              <img src="/images/vase.png" width="300px" height="200px" alt="">
-            </div>
-            <div class="find">
-            <p>Find all your inspiration,interior ideas and creative tips from our <br> inspiration vault. </p>
-            <p>Explore Ideas <span>&#8594;</span></p>
-            <p>Style guides <span>&#8594;</span></p>
-            <p>Our Blog <span>&#8594;</span></p>
-          </div>
-            </div>
+            <button class="btn">Explore All<span>&#8594;</span></button> 
           </div>
           
-      </div>
-     
-    </div>
+    </div> 
+          <div class="bottom">
+            <img id="vase" src="images/vase.png" alt="">
+            <div class="btm">
+              <div class="other">
+                <p>Need Inspiration?</p>
+                <p>Find all your inspiration,interior ideas</p>
+                <p>and creative tips from our inspiration vault.</p>
+                <di class="below">
+                  <p>Explore Ideas &#8594</p>
+                  <p>Style guides &#8594</p>
+                  <p>Our Blog &#8594;</p>
+
+                </di>
+
+              </div>
+
+            </div>
+
+          </div>
     
 
+          <div class="news">
+
+            <h2>Join Our Newsletter</h2>
+            <p>Get fastest offers,inspirations and ideas  straight to your inbox once a month.</p>
+            <input id="placeholder" type="text"placeholder = "Enter your Email">
+            <button id="Go">Go</button>
+          </div>
+
     <footer>
-      <div class="social"><p>Cozy <span>Home</span></p>
+      <div class="socials"><p>Cozy <span class="orange1">Home</span></p>
           <a href="#" class="fa fa-instagram"></a>
           <a href="#" class="fa fa-pinterest"></a>
           <a href="#" class="fa fa-facebook"></a>
-          <p>@ Cozy <span class="orange1">Home</span> 2020</p>
+          <p>@ Cozy Home 2020</p>
       </div>
-      <div class="second">
-          <ul>
-              <li>About </li>
-              <li>Contact Us</li>
-              <li>Ordering and Payment</li>
-              <li>Privacy Policy</li>
-          </ul>
+      <div>
+          
+              <p>About </p>
+              <p>Contact Us</p>
+              <p>Ordering and Payment</p>
+              <p>Privacy Policy</p>
+          
       </div>
-      <div class="third">
-          <ul>
-              <li>Shipping</li>
-              <li>Returns</li>
-              <li>FAQ</li>
-              <li>Feedback</li>
-          </ul>
+      <div>
+          
+              <p>Shipping</p>
+              <p>Returns</p>
+              <p>FAQ</p>
+              <p>Feedback</p>
+          
       </div>
-      <div class="fourth">
-          <ul>
-              <li>Careers</li>
-              <li>Newsroom</li>
-              <li>Terms and Conditions</li>
-              <li>Press Enquiries</li>
-          </ul>
+      <div>
+          
+              <p>Careers</p>
+              <p>Newsroom</p>
+              <p>Terms and Conditions</p>
+              <p>Press Enquiries</p>
+          
       </div>
-      <div class="fifth">
-          <ul>
-              <li>+12564 89710</li>
-              <li>abc@cozyhome.com</li>
-              <li>Find a store</li>
-              <li>Coupons</li>
-          </ul>
+      <div>
+          
+              <p>+12564 89710</p>
+              <p>abc@cozyhome.com</p>
+              <p>Find a store</p>
+              <p>Coupons</p>
       </div>
   </footer>
 
     
 
   </div>
-  
+  <script src="https://kit.fontawesome.com/da41f83091.js" crossorigin="anonymous"></script>
 </body>
 </html>
